@@ -14,7 +14,7 @@ public class Quiz extends JFrame implements ActionListener {
     ButtonGroup groupoptions;
     JButton next, submit, lifeline;
     
-    public static int timer = 15;
+    public static int timer = 60;
     public static int ans_given = 0;
     public static int count = 0;
     public static int score = 0;
