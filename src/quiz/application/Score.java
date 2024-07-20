@@ -80,16 +80,16 @@ class ViewAnswers extends JFrame {
         add(heading);
 
         String[][] questions = {
-            {"Which is used to find and fix bugs in the Java programs.?", "JDB"},
-            {"What is the return type of the hashCode() method in the Object class?", "int"},
-            {"Which package contains the Random class?", "java.util package"},
-            {"An interface with no fields or methods is known as?", "Marker Interface"},
-            {"In which memory a String is stored, when we create a string using new operator?", "Heap memory"},
-            {"Which of the following is a marker interface?", "Remote interface"},
-            {"Which keyword is used for accessing the features of a package?", "import"},
-            {"In java, jar stands for?", "Java Archive"},
-            {"Which of the following is a mutable class in java?", "java.lang.StringBuilder"},
-            {"Which of the following option leads to the portability and security of Java?", "Bytecode is executed by JVM"}
+            {"What is the next number in the series 2, 6, 12, 20, 30, ...?", "42"},
+            {" A shopkeeper buys 80 articles for ₹2400 and sells them for a profit of 16%. The selling price per article is:", "₹34.80"},
+            {"Two pipes can fill a tank in 20 minutes and 30 minutes respectively. Both pipes are opened together. The tank will be full in:", "12 minutes"},
+            {"Pointing to a man, a woman said, \"His mother is the only daughter of my mother.\" How is the woman related to the man?", "Mother"},
+            {"If in a certain code, 'PEAK' is written as '3512' and 'DINE' is written as '6895', how is 'KIND' written in that code?", "2896"},
+            {"Arrange the following words in a meaningful sequence: 1. Reading 2. Writing 3. Drawing 4. Seeing 5. Listening?", "4, 5, 1, 2, 3"},
+            {"Choose the word which best expresses the meaning of the given word: 'EMBEZZLE'?", "Misappropriate"},
+            {"Find the correctly spelt word?", "Government"},
+            {"Choose the most appropriate word to fill in the blank: He succeeded in getting possession ____ the book?", "of"},
+            {"A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?", "150 meters"}
         };
 
         JPanel answersPanel = new JPanel();
